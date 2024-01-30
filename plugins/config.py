@@ -43,7 +43,7 @@ class Config(object):
 
     PROCESS_MAX_TIMEOUT = 0
 
-    DEF_WATER_MARK_FILE = "Use this bot @gugolxformebot"
+    DEF_WATER_MARK_FILE = "Use this bot @gugolxformebot "
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://admin:12341234@cluster0.0xye2w3.mongodb.net/?retryWrites=true&w=majority")
 
@@ -57,4 +57,4 @@ class Config(object):
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "jammesupdates")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "gugolxformebot)
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "gugolxformebot")
