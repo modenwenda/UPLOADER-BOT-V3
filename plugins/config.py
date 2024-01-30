@@ -49,7 +49,7 @@ class Config(object):
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "gugolxformebot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL",))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002028422404))
 
     LOGGER = logging
 
