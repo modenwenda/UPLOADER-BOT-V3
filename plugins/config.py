@@ -23,7 +23,7 @@ class Config(object):
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "https://t.me/jammesupdates")
 
     MAX_FILE_SIZE = 4194304000
 
@@ -43,18 +43,18 @@ class Config(object):
 
     PROCESS_MAX_TIMEOUT = 0
 
-    DEF_WATER_MARK_FILE = "Use this bot @UploadLinkToFileBot"
+    DEF_WATER_MARK_FILE = "Use this bot @gugolxformebot"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://admin:12341234@cluster0.0xye2w3.mongodb.net/?retryWrites=true&w=majority")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "gugolxformebot)
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL",))
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5631774748"))
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "jammesupdates")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "gugolxformebot)
