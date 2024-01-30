@@ -47,7 +47,7 @@ class Config(object):
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://admin:12341234@cluster0.0xye2w3.mongodb.net/?retryWrites=true&w=majority")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "gugolxformebot)
+    SESSION_NAME = os.environ.get("SESSION_NAME", "gugolxformebot")
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL",))
 
